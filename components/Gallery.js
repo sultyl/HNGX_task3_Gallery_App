@@ -81,6 +81,7 @@ const Gallery = () => {
                                     width={400}
                                     height={250}
                                     onClick={handleImageClick}
+                                    className={!session ? 'no-drag' : ''}
                                 />
                             )}
                         </div>

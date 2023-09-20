@@ -44,4 +44,8 @@
   text-align: center;
 }
 
-/* Style your modal content as needed */
+.no-drag {
+  touch-action: none; 
+  -webkit-user-drag: none; 
+  user-drag: none;
+}
