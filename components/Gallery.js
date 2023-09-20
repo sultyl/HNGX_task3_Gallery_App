@@ -33,7 +33,6 @@ const Gallery = () => {
     const { data: session } = useSession();
 
     useEffect(() => {
-        // Simulate loading for 2 seconds, replace this with your actual loading logic
         setTimeout(() => {
           setLoading(false); // Set loading to false after loading is done
         }, 2000);
