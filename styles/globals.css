@@ -9,7 +9,7 @@
     border-top: 4px solid #3498db;
     border-radius: 50%;
     width: 100px;
-    height: 200px;
+    height: 100px;
     animation: spin 1s linear infinite;
   }
   
