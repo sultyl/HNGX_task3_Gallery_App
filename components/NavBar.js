@@ -5,11 +5,11 @@ const NavBar = () => {
   const { data: session } = useSession();
 
   const handleLogin = () => {
-    signIn('credentials', { callbackUrl: 'http://localhost:3000/' });
+    signIn('credentials', { callbackUrl: 'https://kinggallery.vercel.app/' });
   };
 
   const handleLogout = () => {
-    signOut({ callbackUrl: 'http://localhost:3000/' });
+    signOut({ callbackUrl: 'https://kinggallery.vercel.app/' });
   };
 
   return (

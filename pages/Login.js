@@ -15,7 +15,7 @@ const LoginPage = () => {
     e.preventDefault();
     const result = await signIn('credentials', {
       ...credentials,
-      callbackUrl: 'http://localhost:3000/',
+      callbackUrl: 'https://kinggallery.vercel.app/',
     });
 
     if (result?.error) {
