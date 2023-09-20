@@ -11,8 +11,8 @@ const LoginModal = ({ isOpen, onRequestClose }) => {
   const router = useRouter();
 
   const handleLogin = () => {
-    signIn('credentials', { callbackUrl: '/Login' });
-    router.push('/login');
+    signIn('credentials', { callbackUrl: 'https://kinggallery.vercel.app/Login' });
+    router.push('https://kinggallery.vercel.app/Login');
   };
 
   return (
