@@ -1,6 +1,6 @@
 ## Login Credentials
-``` username: **user@example.com**
-password: **1Password** ```
+username: **user@example.com**
+password: **1Password**
 
 ## Installation
 
