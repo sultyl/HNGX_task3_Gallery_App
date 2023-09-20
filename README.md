@@ -1,3 +1,7 @@
+## Login Credentials
+``` username: **user@example.com**
+password: **1Password** ```
+
 ## Installation
 
 Before you begin, ensure you have met the following requirements:
