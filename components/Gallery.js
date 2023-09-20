@@ -65,13 +65,19 @@ const Gallery = () => {
     }
   };
 
+  const handleTouchStart = () => {
+    if (!session) {
+      setShowLoginModal(true);
+    }
+  };
+
   return (
     <div>
         <Search onSearch={handleSearch}/>
             <>
                 <ImageGrid list={filteredImages} setList={handleOnSort}>
                     {filteredImages.map((image) => (
-                        <div key={image.id} draggable={!!session} onDragStart={handleDragStart}>
+                        <div key={image.id} draggable={!!session} onDragStart={handleDragStart} onTouchStart={handleTouchStart}>
                             {loading ? (
                                 <div className="spinner"></div>
                             ) : (
